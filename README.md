@@ -26,3 +26,11 @@ Still very much a work in progress. Don't use yet. ☺
 # Usage
 
 * `rails server`
+* [localhost:3000](http://localhost:3000/)
+
+# Development
+
+* get any updates: `git pull`
+* make your changes, add tests (TDD!)
+* run all the tests: `rspec`
+* share your changes: `git add`, `git commit`, `git push`
