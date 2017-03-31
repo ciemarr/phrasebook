@@ -22,6 +22,7 @@ Still very much a work in progress. Don't use yet. ☺
 * `git clone https://github.com/ciemarr/phrasebook.git`
 * `cd phrasebook`
 * `bundle install`
+* `for x in development test production; do echo "export SECRET_KEY_BASE=$(rails secret)" > .env.$x; done`
 
 # Usage
 
