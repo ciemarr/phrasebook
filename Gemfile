@@ -14,6 +14,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 
+gem 'dotenv-rails', '~> 2.2.0'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri
