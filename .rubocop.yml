@@ -1,0 +1,37 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+   - 'db/schema.rb'
+   - 'db/seeds.rb'
+
+Metrics/LineLength:
+  Exclude:
+   - 'config/environments/*'
+   - 'config/initializers/*'
+   - 'config/puma.rb'
+   - 'Rakefile'
+   - 'spec/rails_helper.rb'
+   - 'spec/spec_helper.rb'
+
+Style/BlockComments:
+  Exclude:
+    - 'spec/spec_helper.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Exclude:
+    - 'config/spring.rb'
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+  Exclude:
+    - 'bin/spring'
+    - 'config/puma.rb'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'

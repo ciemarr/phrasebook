@@ -20,6 +20,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
+  gem 'rubocop-rspec', require: false
 end
 
 group :development do
