@@ -7,12 +7,17 @@ AllCops:
 
 Metrics/LineLength:
   Exclude:
+   - 'config/application.rb'
    - 'config/environments/*'
    - 'config/initializers/*'
    - 'config/puma.rb'
    - 'Rakefile'
    - 'spec/rails_helper.rb'
    - 'spec/spec_helper.rb'
+
+RSpec/MultipleExpectations:
+  Exclude:
+   - 'spec/features/*'
 
 Style/BlockComments:
   Exclude:
