@@ -9,10 +9,11 @@ RSpec.feature 'Prototype' do
   end
 
   scenario 'user sees a static list of words' do
-    expect(page).to have_css('ul li', count: 4)
+    expect(page).to have_css('tr td')
   end
 
   scenario 'user sees subdivided list of words' do
-    expect(page).to have_css('h2', count: 2)
+    expect(page).to have_css('table', count: 2)
   end
+
 end
