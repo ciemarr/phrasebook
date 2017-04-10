@@ -5,4 +5,9 @@ RSpec.feature 'Prototype' do
     expect(page).to have_css('header h1', text: 'Phrasebook')
     expect(page).to have_title 'Phrasebook'
   end
+
+  scenario 'user sees a static list of words' do
+    visit '/prototype'
+    expect(page).to have_css('ul li', count: 4)
+  end
 end
