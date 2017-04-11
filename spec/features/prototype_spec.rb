@@ -15,5 +15,4 @@ RSpec.feature 'Prototype' do
   scenario 'user sees subdivided list of words' do
     expect(page).to have_css('table', count: 2)
   end
-
 end
