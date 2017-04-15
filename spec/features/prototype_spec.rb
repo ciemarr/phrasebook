@@ -17,6 +17,6 @@ RSpec.feature 'Prototype' do
   end
 
   scenario 'user sees example sentences' do
-    expect(page).to have_css('[class="example"]')
+    expect(page).to have_css('.example')
   end
 end
