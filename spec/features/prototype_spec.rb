@@ -15,4 +15,8 @@ RSpec.feature 'Prototype' do
   scenario 'user sees subdivided list of words' do
     expect(page).to have_css('table', count: 2)
   end
+
+  scenario 'user sees example sentences' do
+    expect(page).to have_css('[class="example"]')
+  end
 end
