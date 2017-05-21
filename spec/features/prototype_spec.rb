@@ -16,7 +16,19 @@ RSpec.feature 'Prototype' do
     expect(page).to have_css('table', count: 2)
   end
 
+  scenario 'user sees captions for each list' do
+    expect(page).to have_css('table caption')
+  end
+
+  scenario 'user sees example source words' do
+    expect(page).to have_css('.source-lang')
+  end
+
+  scenario 'user sees example target words' do
+    expect(page).to have_css('.target-lang')
+  end
+
   scenario 'user sees example sentences' do
-    expect(page).to have_css('.example')
+    expect(page).to have_css('.target-example')
   end
 end

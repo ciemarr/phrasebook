@@ -1,0 +1,51 @@
+body {
+  margin: 1rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+table {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-bottom: 1px solid;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #eee;
+}
+
+tr:nth-child(2n) {
+  background-color: #ccc;
+}
+
+td {
+  width: 33%;
+  padding: 1rem;
+}
+
+.source-lang {
+  font-style: italic;
+}
+
+.target-lang {
+  font-weight: bold;
+}
+
+.target-example {
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  font-size: 0.5rem;
+  font-style: italic;
+  text-align: right;
+}
