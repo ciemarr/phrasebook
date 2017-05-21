@@ -33,5 +33,5 @@ Still very much a work in progress. Don't use yet. ☺
 
 * get any updates: `git pull`
 * make your changes, add tests (TDD!)
-* run all the tests: `rspec`
+* run all the tests: `rake spec`
 * share your changes: `git add`, `git commit`, `git push`
